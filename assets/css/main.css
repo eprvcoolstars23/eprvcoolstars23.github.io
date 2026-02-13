@@ -2004,7 +2004,6 @@ input, select, textarea {
 		.wrapper.style1 {
 			background: #a01c1c;
 			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
@@ -2018,20 +2017,22 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background: #fff;
+			color: #000000;
 		}
 
 			.wrapper.style2 .title {
 				background: #fff;
-				color: #484d55;
+				color: #000000;
 			}
 
 		.wrapper.style3 {
 			background: #f3f3f3 url("images/overlay.png");
+			color: #000000;
 		}
 
 			.wrapper.style3 .title {
 				background: #f3f3f3 url("images/overlay.png");
-				color: #484d55;
+				color: #000000;
 			}
 
 			.wrapper.style3 .image {
@@ -2173,22 +2174,17 @@ input, select, textarea {
 		#intro p.style1 {
 			font-size: 1.5em;
 			letter-spacing: 0.075em;
-			max-width: 50em;
-			margin: 0 auto;
-			padding: 0 2em;
 			text-align: left;
 		}
 
 		#intro p.style2 {
 			font-weight: 700;
-			color: #fff;
-			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-			font-size: 2.75em;
+			color: #ffffff;
+			font-size:  clamp(2.5em, 4vw, 3.5em);
 			letter-spacing: 0.075em;
 			line-height: 1.35em;
-			padding: 1em 0 1em 0;
-			margin-bottom: 1em;
+			margin: 0 auto;
+			padding: 0 2em;
 		}
 
 			#intro p.style2 a {
@@ -2198,8 +2194,18 @@ input, select, textarea {
 
 		#intro p.style3 {
 			font-size: 1.1em;
-			width: 48em;
 			margin: 0 auto;
+		}
+
+		#intro p.style1,
+		#intro p.style2,
+		#intro p.style3 {
+			max-width: 50em;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 2em;
+			padding-right: 2em;
+			text-align: left;
 		}
 
 /* Features */
