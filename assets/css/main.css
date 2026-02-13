@@ -2180,9 +2180,11 @@ input, select, textarea {
 	}
 
 		#intro p.style1 {
-			font-size: 1.5em;
+			font-size:  clamp(2.5em, 4vw, 3.5em);
 			letter-spacing: 0.075em;
-			text-align: left;
+			line-height: 1.35em;
+			margin: 0 auto;
+			padding: 0 2em;
 		}
 
 		#intro p.style2 {
