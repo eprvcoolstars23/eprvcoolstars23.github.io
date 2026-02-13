@@ -2186,6 +2186,10 @@ input, select, textarea {
 			margin: 0 auto;
 			padding: 0 2em;
 		}
+			#intro p.style1 a {
+				color: inherit;
+				text-decoration: none;
+			}
 
 		#intro p.style2 {
 			font-weight: 700;
