@@ -2010,12 +2010,12 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #a01c1c;
+			background: #932818;
 			color: #eee;
 		}
 
 			.wrapper.style1 .title {
-				background: #a01c1c;
+				background: #932818;
 				color: #fff;
 			}
 
@@ -2966,7 +2966,7 @@ input, select, textarea {
 		display: flex;
 		justify-content: center;
 		gap: 3em;
-		flex-wrap: wrap;   // allows responsive wrapping
+		flex-wrap: wrap;
 		text-align: center;
 		margin-bottom: 3em;
 	}
@@ -2978,7 +2978,7 @@ input, select, textarea {
 	.organiser img {
 		width: 160px;
 		height: 160px;
-		border-radius: 50%;   // circular framing
+		border-radius: 50%;
 		object-fit: cover;
 		display: block;
 		margin: 0 auto 1em auto;
