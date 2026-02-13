@@ -1667,6 +1667,14 @@ input, select, textarea {
 			min-width: 14em;
 		}
 
+		input[type="button"].small,
+		input[type="submit"].small,
+		input[type="reset"].small,
+		button.small,
+		.button.small {
+			font-size: 0.6em;
+		}
+
 		input[type="button"].style1,
 		input[type="submit"].style1,
 		input[type="reset"].style1,
@@ -1802,7 +1810,7 @@ input, select, textarea {
 	ul.actions {
 		list-style: none;
 		padding-left: 0;
-		margin: 3em 0 0 0;
+		margin:0;
 	}
 
 		ul.actions li {
@@ -2216,6 +2224,10 @@ input, select, textarea {
 
 	#features ul.actions {
 		margin-top: 5em;
+	}
+	
+	#features ul.actions.centered {
+		justify-content: center;
 	}
 
 /* Highlights */
@@ -2946,4 +2958,47 @@ input, select, textarea {
 							margin-top: 0;
 						}
 
+	}
+
+
+
+.organisers {
+		display: flex;
+		justify-content: center;
+		gap: 3em;
+		flex-wrap: wrap;   // allows responsive wrapping
+		text-align: center;
+		margin-bottom: 3em;
+	}
+
+	.organiser {
+		width: 200px;
+	}
+
+	.organiser img {
+		width: 160px;
+		height: 160px;
+		border-radius: 50%;   // circular framing
+		object-fit: cover;
+		display: block;
+		margin: 0 auto 1em auto;
+	}
+
+	.organiser h3 {
+		margin-bottom: 0.2em;
+		font-size: 1.1em;
+	}
+
+	.organiser p {
+		margin: 0;
+		font-size: 0.9em;
+		color: #666;
+	}
+
+	/* Co-organiser list */
+
+	.coorganisers {
+		max-width: 40em;
+		margin: 0 auto;
+		text-align: left;
 	}
