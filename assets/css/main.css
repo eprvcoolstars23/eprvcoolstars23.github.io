@@ -2167,12 +2167,16 @@ input, select, textarea {
 
 	#intro {
 		padding-bottom: 8em;
-		text-align: center;
+		text-align: left;
 	}
 
 		#intro p.style1 {
 			font-size: 1.5em;
 			letter-spacing: 0.075em;
+			max-width: 50em;
+			margin: 0 auto;
+			padding: 0 2em;
+			text-align: left;
 		}
 
 		#intro p.style2 {
